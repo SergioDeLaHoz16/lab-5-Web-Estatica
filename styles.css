@@ -1,0 +1,101 @@
+body {
+    font-family: Poppins;
+    padding: 30px;
+    background-image: url('https://talentotechbogota.co/opengraph-image.png?7585abe254eaba33');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    
+}
+
+header {
+    background-color: rgba(31, 28, 109, 0.815);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px auto; /* Centrado horizontal y margen inferior */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Limita el ancho para pantallas grandes */
+    padding: 50px;
+    border-radius: 8px;
+    backdrop-filter: blur(5px); /* Efecto de desenfoque */
+    background-color: rgba(31, 28, 109, 0.815); /* Fondo semi-transparente */
+    color: white;
+}
+
+
+.personal-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th, td {
+    padding: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0078d7;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(31, 28, 109, 0.815);
+    color: white;
+    margin-top: 20px;
+}
